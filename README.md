@@ -11,11 +11,11 @@ A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-lo
 
 This extension helps speed up the development process for Marketo Guided/Email Templates by automatically populating Marketo Variables in their correct places based on their Default Value in the Meta Tag when viewing the file locally. It will also recognize True/False Values in Boolean Meta Tags and populate the Value within the document accordingly.
 
-You are no longer having to copy and paste your code within the Marketo Instance Template Editor and clicking on 'preview' to see your template's changes - you can now see your changes instantly within your browser when viewing the template locally!
+You are no longer having to copy and paste your code within the Marketo Instance Template Editor and clicking on 'preview' to see your template's changes - you can now see your changes instantly within your browser!
 
 - This extension works best when 'Live Previewing' your code using your favourite text editor or opening the file with the Google Chrome browser directly from your local folder.
 
-- This extension will not interfere within the Marketo Instances and does not make any changes to your local documents. The extension will only be automatically triggered when viewing documents locally within Google Chrome browser.
+- This extension will not interfere with the Marketo Software and does not make any changes to your local documents. The extension will only provide a 'preview' when viewing documents locally containing Marketo Variables within Google Chrome browsers.
 
 #### How can I install it?
 
