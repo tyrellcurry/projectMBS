@@ -1,7 +1,7 @@
 
 # Project MBS (Marketo Browser Support)
 
-A [Google Chrome Extension](https://breakdance.github.io/breakdance/) for supporting Marketo Guided Templates locally.
+A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-local-browser-sup/iinigaojmcejccagokaolgdfhelkemap?hl=en&authuser=0) for supporting Marketo Guided Templates locally.
 
 <image src="https://lh3.googleusercontent.com/ViDKK5NlB_IwQPh15yzeeRSyksev_CPGfRTAySf7JhJvhadnsp7dvL3Y8AQDQoC9V1VuEwes66rK5waeL0VlhbOq=w640-h400-e365-rj-sc0x00ffffff" />
 
@@ -19,7 +19,7 @@ You are no longer having to copy and paste your code within the Marketo Instance
 
 #### How can I install it?
 
-You can install it from the official [Google Chrome Webstore](https://breakdance.github.io/breakdance/).
+You can install it from the official [Google Chrome Webstore](https://chrome.google.com/webstore/detail/marketo-local-browser-sup/iinigaojmcejccagokaolgdfhelkemap?hl=en&authuser=0).
 
 If you would like cross-browser support or you'd rather not install the extension - you can paste this script directly within your project:
 
