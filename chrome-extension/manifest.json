@@ -1,7 +1,7 @@
 {
   "name": "Marketo Local Browser Support",
-  "description": "Support for Marketo variables to render into Chrome browsers locally.",
-  "version": "0.0.2",
+  "description": "A Google Chrome Extension for supporting Marketo Guided Templates locally.",
+  "version": "0.0.3",
   "manifest_version": 3,
   "icons": {
     "128": "mbs-icon.png"
