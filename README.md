@@ -24,7 +24,7 @@ You can install it from the official [Google Chrome Webstore](https://chrome.goo
 If you would like cross-browser support or you'd rather not install the extension - you can paste this script directly within your project:
 
 ```
-<script src="https://tyrellcurry.github.io/projectMBS/chrome-extension/mbs.js"></script>
+<script src="https://tyrellcurry.github.io/projectMBS/mbs-chrome-extension/mbs.js"></script>
 ```
 
 ## Author
