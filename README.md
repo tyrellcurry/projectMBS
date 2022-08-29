@@ -1,7 +1,7 @@
 
 # Project MBS (Marketo Browser Support)
 
-A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-local-browser-sup/iinigaojmcejccagokaolgdfhelkemap?hl=en&authuser=0) for supporting Marketo Guided/Email Templates locally.
+A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-local-browser-sup/iinigaojmcejccagokaolgdfhelkemap?hl=en&authuser=0) for supporting Marketo Guided/Email Templates locally in the browser.
 
 <image src="https://lh3.googleusercontent.com/ViDKK5NlB_IwQPh15yzeeRSyksev_CPGfRTAySf7JhJvhadnsp7dvL3Y8AQDQoC9V1VuEwes66rK5waeL0VlhbOq=w640-h400-e365-rj-sc0x00ffffff" />
 
