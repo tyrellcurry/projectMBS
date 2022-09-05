@@ -33,7 +33,7 @@ You must give the Extension persmission to access the file URLs by toggling this
 
 <img src="./images/MBS-Allow.png"/>
 
-You can find the Extension's settings here <a href="chrome://extensions/?id=iinigaojmcejccagokaolgdfhelkemap">chrome://extensions/?id=iinigaojmcejccagokaolgdfhelkemap</a>
+You can find the Extension's settings <a href="chrome://extensions/?id=iinigaojmcejccagokaolgdfhelkemap">here</a>
 
 ## Author
 
