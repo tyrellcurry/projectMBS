@@ -34,6 +34,7 @@ You must give the Extension persmission to access the file URLs by toggling this
 <img src="./images/MBS-Allow.png"/>
 
 You can find the Extension's settings by copying and pasting this in your browser:
+
 ```chrome://extensions/?id=iinigaojmcejccagokaolgdfhelkemap```
 
 ## Author
