@@ -27,6 +27,12 @@ If you would like cross-browser support or you'd rather not install the extensio
 <script src="https://tyrellcurry.github.io/projectMBS/chrome-extension/mbs.js"></script>
 ```
 
+#### Why is the extension not working when I open a local file with Google Chrome?
+
+You must give the Extension persmission to access the file URLs by toggling this setting:
+
+<img src="./images/MBS-Allow.png"/>
+
 ## Author
 
 - Created by: [Tyrell Curry](https://tyrellcurry.io)

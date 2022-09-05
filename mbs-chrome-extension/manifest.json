@@ -1,6 +1,6 @@
 {
   "name": "Marketo Browser Support",
-  "description": "A Google Chrome Extension for supporting Marketo Guided/Email Templates locally",
+  "description": "A Google Chrome Extension for supporting Marketo Guided/Email Templates locally in the browser",
   "version": "0.0.4",
   "manifest_version": 3,
   "icons": {
