@@ -9,25 +9,25 @@ A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-lo
 
 #### What does this extension do?
 
-This extension helps speed up the development process for Marketo Guided/Email Templates by automatically populating Marketo Variables in their correct places based on their Default Value in the Meta Tag when viewing the file locally. It will also recognize True/False Values in Boolean Meta Tags and populate the Value within the document accordingly.
+This extension helps speed up the development process for Marketo Guided Templates and Email Templates by automatically populating Marketo Variables in their correct places based on their Default Value in the Meta Tag when viewing the file locally. It will also recognize True/False Values in Boolean Meta Tags and populate the Value within the browser accordingly.
 
-You are no longer having to copy and paste your code within the Marketo Instance Template Editor and clicking on 'preview' to see your template's changes - you can now see your changes instantly within your browser!
+No longer are you having to copy and paste your code within the Marketo Template Editor and clicking on the ‘preview’ option to see your template’s changes - you can now see your changes instantly within your browser!
 
-- This extension works best when 'Live Previewing' your code using your favourite text editor or opening the file with the Google Chrome browser directly from your local folder.
+- This extension works best when ‘Live Previewing’ your code using your favourite text editor!
 
-- This extension will not interfere with the Marketo Software and does not make any changes to your local documents. The extension will only provide a 'preview' when viewing documents locally containing Marketo Variables within Google Chrome browsers.
+- This extension will not interfere with the Marketo Software and does not make any changes to your local documents. This extension will only provide a ‘preview’ in your Google Chrome Browser when viewing documents locally that are containing Marketo Variables.
 
 #### How can I install it?
 
 You can install it from the official [Google Chrome Webstore](https://chrome.google.com/webstore/detail/marketo-local-browser-sup/iinigaojmcejccagokaolgdfhelkemap?hl=en&authuser=0).
 
-If you would like cross-browser support or you'd rather not install the extension - you can paste this script directly within your project:
+If you would like cross-browser support or you'd rather not install the extension - you can paste this script directly within your project's code:
 
 ```
 <script src="https://tyrellcurry.github.io/projectMBS/mbs-chrome-extension/mbs.js"></script>
 ```
 
-#### Why is the extension not working when I open a local file with Google Chrome?
+#### Why is the extension not working when I open a local file with Google Chrome from my finder/folder?
 
 You must give the Extension persmission to access the file URLs by toggling this setting:
 
@@ -37,7 +37,14 @@ You can find the Extension's settings by copying and pasting this in your browse
 
 ```chrome://extensions/?id=iinigaojmcejccagokaolgdfhelkemap```
 
-## Author
+--
 
-- Created by: [Tyrell Curry](https://tyrellcurry.io)
+### How do I leave my feedback or get support for this extension?
+Please fill out this [Google Form](https://forms.gle/mZs2PRuxko7S6bwCA) and I will try to get back to you as soon as possible!
+
+--
+
+### Author
+
+- Created by: [Tyrell Curry](https://tyrellcurry.io) who is part of the Creative Services team at [MERGE](https://mergeworld.com/).
 

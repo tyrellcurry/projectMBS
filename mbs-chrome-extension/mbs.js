@@ -22,6 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 
+console.log('MBS Extension: Running');
+
 window.onload = marketoBrowserSupport;
 function marketoBrowserSupport() {
   document.querySelectorAll('meta[mktoName]').forEach((e) => {

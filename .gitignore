@@ -2,4 +2,8 @@
 
 # misc
 .DS_Store
-./zip/.DS_Store
+/zip/.DS_Store
+dev/
+tests/
+current zip/
+images/
