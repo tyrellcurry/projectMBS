@@ -9,7 +9,7 @@ A [Google Chrome Extension](https://chrome.google.com/webstore/detail/marketo-lo
 
 #### What does this extension do?
 
-This extension helps speed up the development process for Marketo Guided Templates and Email Templates by automatically populating Marketo Variables in their correct places based on their Default Value in the Meta Tag when viewing the file locally. It will also recognize True/False Values in Boolean Meta Tags and populate the Value within the browser accordingly.
+This extension helps speed up the development process for Marketo Guided Landing Page Templates and Marketo Email Templates by automatically populating Marketo Variables in their correct places based on their Default Value in the Meta Tag when viewing the file locally. It will also recognize True/False Values in Boolean Meta Tags and populate the Value within the browser accordingly.
 
 No longer are you having to copy and paste your code within the Marketo Template Editor and clicking on the ‘preview’ option to see your template’s changes - you can now see your changes instantly within your browser!
 
