@@ -42,3 +42,13 @@ function marketoBrowserSupport() {
     }
   });
 }
+
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+var observer = new MutationObserver(function() {
+    marketoBrowserSupport()
+});
+
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
