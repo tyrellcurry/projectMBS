@@ -24,7 +24,6 @@ SOFTWARE.
 
 console.log('MBS Extension: Running');
 
-window.onload = marketoBrowserSupport;
 function marketoBrowserSupport() {
   document.querySelectorAll('meta[mktoName]').forEach((e) => {
     if (e.getAttribute('class') == 'mktoBoolean') {
@@ -43,12 +42,4 @@ function marketoBrowserSupport() {
   });
 }
 
-MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-var observer = new MutationObserver(function() {
-    marketoBrowserSupport()
-});
-
-observer.observe(document, {
-  subtree: true,
-  attributes: true
-});
+marketoBrowserSupport();
