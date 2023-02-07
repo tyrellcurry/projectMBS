@@ -24,7 +24,9 @@ SOFTWARE.
 
 console.log('MBS Extension: Running');
 
-window.onload = marketoBrowserSupport;
+document.addEventListener("DOMContentLoaded", function(event) {
+    marketoBrowserSupport();
+})
 
 function marketoBrowserSupport() {
   document.querySelectorAll('meta[mktoName]').forEach((e) => {
@@ -43,4 +45,3 @@ function marketoBrowserSupport() {
     }
   });
 }
-
