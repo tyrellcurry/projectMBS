@@ -46,5 +46,5 @@ Please fill out this [Google Form](https://forms.gle/mZs2PRuxko7S6bwCA) and I wi
 
 ### Author
 
-- Created by: [Tyrell Curry](https://tyrellcurry.io) who is part of the Creative Services team at [MERGE](https://mergeworld.com/).
+- Created by: [Tyrell Curry](https://github.com/tyrellcurry).
 
