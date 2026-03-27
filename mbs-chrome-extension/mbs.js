@@ -1,7 +1,7 @@
 /* 
 MIT License
 
-Copyright (c) 2025 Tyrell Curry
+Copyright (c) 2026 Tyrell Curry
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,22 +24,39 @@ SOFTWARE.
 
 console.log("MBS Extension: Running");
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    marketoBrowserSupport();
-})
+document.addEventListener("DOMContentLoaded", function (event) {
+  marketoBrowserSupport();
+});
 
 function marketoBrowserSupport() {
-  document.querySelectorAll("meta[mktoName]").forEach((e) => {
+  const metas = document.querySelectorAll("meta[mktoName]");
+
+  const defaultMap = {};
+  metas.forEach((e) => {
+    defaultMap[e.id] = e.getAttribute("default");
+  });
+
+  function resolveValue(value) {
+    if (value === null) return null;
+    const match = value && value.match(/^\$\{(.+)\}$/);
+    if (match && defaultMap[match[1]] !== undefined) {
+      return resolveValue(defaultMap[match[1]]);
+    }
+    return value;
+  }
+
+  metas.forEach((e) => {
     if (e.getAttribute("class") == "mktoBoolean") {
       document.documentElement.innerHTML = document.documentElement.innerHTML
         .split("${" + e.id + "}")
         .join(`${e.getAttribute(`${e.getAttribute("default")}_value`)}`);
     } else if (e.getAttribute("units") != null) {
+      const defaultVal = resolveValue(defaultMap[e.id]);
       document.documentElement.innerHTML = document.documentElement.innerHTML
         .split("${" + e.id + "}")
-        .join(`${e.getAttribute("default")}${e.getAttribute("units")}`);
+        .join(`${defaultVal}${e.getAttribute("units")}`);
     } else if (e.getAttribute("class") == "mktoList") {
-      const defaultVal = e.getAttribute("default");
+      const defaultVal = resolveValue(defaultMap[e.id]);
       const listValueArr = e.getAttribute("values").split(",");
       if (defaultVal !== null) {
         document.documentElement.innerHTML = document.documentElement.innerHTML
@@ -51,9 +68,10 @@ function marketoBrowserSupport() {
           .join(listValueArr[0]);
       }
     } else {
+      const defaultVal = resolveValue(defaultMap[e.id]);
       document.documentElement.innerHTML = document.documentElement.innerHTML
         .split("${" + e.id + "}")
-        .join(`${e.getAttribute("default")}`);
+        .join(`${defaultVal}`);
     }
   });
 }
